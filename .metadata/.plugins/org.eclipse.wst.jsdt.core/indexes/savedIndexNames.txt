@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\Acer\Documents\MeusProjetos\jsf-primefaces\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4287596474.index
+1104062697.index
+190084638.index
+3921092202.index
+2714013157.index

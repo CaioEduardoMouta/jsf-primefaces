@@ -1,0 +1,28 @@
+Caracteristicas do JSF
+
+- Páginas criadas ultilizando componentes 
+- Suporte a Ajax 
+- Possui validadores e conversodores
+- Pode-se criar os próprios componentes
+- é um modelo orietado a eventos 
+- se assemelha muito a criação de interfaces 
+gráficas de aplicações desktop
+
+-XHTML começou a ser usado a partir do JSF 2.0
+
+comando no cmd
+netstat -ano 
+para procurar uma porta livre no localhost
+
+taskkill /F /PID 3268
+mudando a porta do servidor 
+
+CDI 
+Injeta dependencias atraves de anotações 
+
+Bean é uma class Java comum só tem que colocar 
+o @Named para especificar que é Bean e colocar 
+o implements Serializable e colocar o @Inject para
+ser chamado no XHTML
+
+Escopos CDI 

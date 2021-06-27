@@ -1,0 +1,30 @@
+package br.com.dominio.controller;
+
+import java.awt.List;
+import java.io.Serializable;
+import java.util.ArrayList;
+
+import javax.enterprise.context.SessionScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import br.com.dominio.model.Pessoa;
+
+
+@Named("bean")
+@SessionScoped
+public class PessoaMB implements Serializable {
+	
+	private static final long serialVersionUD = 1L;
+	
+	@Inject
+	private Pessoa pessoa;
+	
+	private List<Pessoa> pessoas = new ArrayList<>();
+	
+	public String adicionar() {
+		
+		return null
+	}
+
+}
