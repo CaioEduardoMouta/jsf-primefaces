@@ -4,7 +4,8 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.enterprise.context.SessionScoped;
+import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.context.Conversation;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -13,7 +14,7 @@ import br.com.dominio.model.Pessoa;
 
 
 @Named("bean")
-@SessionScoped
+@ApplicationScoped
 public class PessoaMB implements Serializable{
 
 	/**
@@ -24,13 +25,32 @@ public class PessoaMB implements Serializable{
 	@Inject
 	private Pessoa pessoa;
 	
+	@Inject
+	private Conversation conversation;
+	
 	private List<Pessoa> pessoas = new ArrayList<Pessoa>();
 	
 	public String adicionar() {
+		
+		if(pessoas.isEmpty()) {
+			conversation.begin();
+		}
+		
 		pessoas.add(pessoa);
+		
 		limpar();
+		
+		return null;
+		
+	}
+	
+	public String parar() {
+		
+		conversation.end();
+		
 		return null;
 	}
+	
 	
 	private void limpar() {
 		this.pessoa = new Pessoa();

@@ -2,17 +2,20 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
 		xmlns:h="http://xmlns.jcp.org/jsf/html"
-		xmlns:f="http://xmlns.jcp.org/jsf/core">
+		xmlns:f="http://xmlns.jcp.org/jsf/core"
+		 xmlns:p="http://primefaces.org/ui">
 		
 <h:head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Insert title here</title>
 </h:head>
 <h:body>
+
 	
 	<h1>Cadastro de funcionário</h1>
 	<h:form>
 		<h:panelGrid columns="2">
+		
 			Nome <h:inputText/>
 			Senha <h:inputSecret/>
 			Sexo
@@ -28,7 +31,7 @@
 			</h:selectOneRadio>
 			
 			Observações<h:inputTextarea rows="3" cols="20"/>
-			<h:commandButton value="Cdastrar"/>
+			<h:commandButton value="Cadastrar"/>
 		</h:panelGrid>
 		
 	</h:form>

@@ -30,3 +30,16 @@
 0:0:0:0:0:0:0:1 - - [27/Jun/2021:04:25:08 -0300] "GET /meu-projeto/CadastroPessoa.xhtml HTTP/1.1" 500 5263
 0:0:0:0:0:0:0:1 - - [27/Jun/2021:04:25:09 -0300] "GET /meu-projeto/CadastroPessoa.xhtml HTTP/1.1" 500 5263
 0:0:0:0:0:0:0:1 - - [27/Jun/2021:04:32:04 -0300] "GET /meu-projeto/CadastroPessoa.xhtml HTTP/1.1" 200 975
+127.0.0.1 - - [27/Jun/2021:04:52:29 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Jun/2021:04:52:43 -0300] "GET /meu-projeto/Cadastro.xhtml HTTP/1.1" 200 1593
+127.0.0.1 - - [27/Jun/2021:21:25:33 -0300] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [27/Jun/2021:21:27:28 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Jun/2021:21:27:30 -0300] "GET /meu-projeto/Cadastro.xhtml HTTP/1.1" 200 1592
+0:0:0:0:0:0:0:1 - - [27/Jun/2021:21:27:57 -0300] "GET /meu-projeto/Cadastro.xhtml HTTP/1.1" 500 3643
+127.0.0.1 - - [27/Jun/2021:21:31:43 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Jun/2021:21:31:44 -0300] "GET /meu-projeto/faces/Cadastro.xhtml HTTP/1.1" 200 1556
+0:0:0:0:0:0:0:1 - - [27/Jun/2021:21:31:59 -0300] "GET /meu-projeto/faces/Cadastro.xhtml HTTP/1.1" 200 1556
+127.0.0.1 - - [27/Jun/2021:22:05:57 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Jun/2021:22:05:59 -0300] "GET /meu-projeto/faces/Cadastro.xhtml HTTP/1.1" 200 2061
+0:0:0:0:0:0:0:1 - - [27/Jun/2021:22:05:59 -0300] "GET /meu-projeto/faces/javax.faces.resource/theme.css?ln=primefaces-saga&v=10.0.0 HTTP/1.1" 200 211527
+0:0:0:0:0:0:0:1 - - [27/Jun/2021:22:05:59 -0300] "GET /meu-projeto/faces/javax.faces.resource/primeicons/primeicons.css?ln=primefaces&v=10.0.0 HTTP/1.1" 200 8962
