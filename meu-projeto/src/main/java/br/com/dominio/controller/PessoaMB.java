@@ -32,15 +32,11 @@ public class PessoaMB implements Serializable{
 	
 	public String adicionar() {
 		
-		if(pessoas.isEmpty()) {
-			conversation.begin();
-		}
-		
 		pessoas.add(pessoa);
 		
 		limpar();
 		
-		return null;
+		return "paginas/Sucesso";
 		
 	}
 	
@@ -53,7 +49,7 @@ public class PessoaMB implements Serializable{
 	
 	
 	private void limpar() {
-		this.pessoa = new Pessoa();
+		pessoa = new Pessoa();
 	}
 
 	public Pessoa getPessoa() {
