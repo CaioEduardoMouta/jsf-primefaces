@@ -7,6 +7,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import br.com.dominio.model.Atividade;
+import br.com.dominio.model.TipoAtividade;
 
 @Named("ativdadeMB")
 @SessionScoped
