@@ -1,5 +1,6 @@
 package br.com.dominio.model;
 
+
 public enum TipoAtividade {
 	
 	APRESENTACAO("Apresentação"), CURSO("Curso"), MINICURSO("Minicurso"), PALESTRA("Palestra"),

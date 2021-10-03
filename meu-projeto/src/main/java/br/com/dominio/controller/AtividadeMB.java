@@ -3,13 +3,14 @@ package br.com.dominio.controller;
 import java.io.Serializable;
 
 import javax.enterprise.context.SessionScoped;
+import javax.faces.bean.ManagedBean;
 import javax.inject.Inject;
 import javax.inject.Named;
 
 import br.com.dominio.model.Atividade;
 import br.com.dominio.model.TipoAtividade;
 
-@Named("ativdadeMB")
+@ManagedBean
 @SessionScoped
 public class AtividadeMB implements Serializable{
 	

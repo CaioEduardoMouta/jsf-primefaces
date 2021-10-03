@@ -3,8 +3,5 @@ INDEX VERSION 1.4+C:\Users\Acer\Documents\MeusProjetos\jsf-primefaces\.metadata\
 4287596474.index
 1104062697.index
 190084638.index
-3670057979.index
-3670057979.index
 3921092202.index
-1196836672.index
 2714013157.index

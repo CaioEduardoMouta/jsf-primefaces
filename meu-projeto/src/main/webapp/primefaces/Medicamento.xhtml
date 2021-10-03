@@ -50,33 +50,33 @@
 				</p:panelGrid>
 				<p:dataTable value="#{medicamentoMB.medicamentos}" var="m" id="tabela" paginator="true" rows="5">
 					<p:column headerText="Medicamento">
-						<p:outputLabel value="#{m.nome}" />
+						<p:outputLabel value="#{medicamento.nome}" />
 					</p:column>
 					
 					<p:column headerText="Apresentacao">
-						<p:outputLabel value="#{m.apresentacao}"/>
+						<p:outputLabel value="#{medicamento.apresentacao}"/>
 					</p:column>
 					
 					<p:column headerText="Laboratorio">
-						<p:outputLabel value="#{m.Laboratorio}"/>
+						<p:outputLabel value="#{medicamento.laboratorio}"/>
 					</p:column>
 					
 					<p:column headerText="Registro MS">
-						<p:outputLabel value="#{m.registro}"/>
+						<p:outputLabel value="#{medicamento.registro}"/>
 					</p:column>
 					
 					<p:column headerText="Preco">
-						<p:outputLabel value="#{m.preco}">
+						<p:outputLabel value="#{medicamento.preco}">
 							<f:convertNumber type="currency" currencySymbol="R$"/>
 						</p:outputLabel>
 					</p:column>
 					
 					<p:column headerText="" width="100">
 						<p:commandButton icon="ui-icon-pencil" update="@form" process="@this">
-								<f:setPropertyActionListener value="#{m}" target="#{medicamentoMB.medicamento}"/>
+								<f:setPropertyActionListener value="#{medicamento}" target="#{medicamentoMB.medicamento}"/>
 						</p:commandButton>
 						<p:commandButton action="#{medicamentoMB.excluir}" icon="ui-icon-trash" update="tabela" process="@this">
-								<f:setPropertyActionListener value="#{m}" target="#{medicamentoMB.medicamento}"/>
+								<f:setPropertyActionListener value="#{medicamento}" target="#{medicamentoMB.medicamento}"/>
 						</p:commandButton>
 					</p:column>
 														

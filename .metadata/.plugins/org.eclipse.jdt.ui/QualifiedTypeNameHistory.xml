@@ -12,4 +12,5 @@
     <fullyQualifiedTypeName name="br.com.dominio.model.Atividade"/>
     <fullyQualifiedTypeName name="br.com.dominio.model.TipoAtividade"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
 </qualifiedTypeNameHistroy>
